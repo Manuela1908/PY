@@ -2,6 +2,7 @@ import googleapiclient.discovery
 import google.oauth2.service_account
 import pymysql
 
+
 credenciais_json = r'C:\Users\RDSINFO\Documents\script\python\credenciais.json'
 
 
