@@ -6,7 +6,8 @@ import tkinter as tk
 from io import BytesIO
 import threading
 from tkinter import scrolledtext
-
+import os
+from dotenv import load_dotenv
 
 openai_api_key = "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"
 url_dall_e = "https://api.openai.com/v1/images/generations"
