@@ -9,7 +9,9 @@ from tkinter import scrolledtext
 import os
 from dotenv import load_dotenv
 
-openai_api_key = "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"
+load_dotenv()
+
+openai_api_key = os.getenv("OPENAI_API_KEY")
 url_dall_e = "https://api.openai.com/v1/images/generations"
 url_gpt = "https://api.openai.com/v1/chat/completions"
 headers = {
