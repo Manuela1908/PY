@@ -10,7 +10,7 @@ import dotenv
 dotenv.load_dotenv()
 
 
-app = Flask(__name__, template_folder=r'C:\Users\Manuela.DESKTOP-H5K2INA\Desktop\PROGRAMAS\Python\portfolio\templates')
+app = Flask(__name__, template_folder=r'C:\Users\User\Desktop\Caminho\Para\Projeto\templates')
 app.config['SEND_FILE_MAX_AGE_DEFAULT'] = 0
 
 
