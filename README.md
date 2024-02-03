@@ -13,3 +13,8 @@ Programa que possui as funções de codificação ou decodificação de um núme
 
 Programa desenvolvido utilizando integração com inteligência artificial ChatGPT da OpenAI, utiliza requisição HTTPS baseada na entrada do usuário e possui o comando para "gerar receitas culinarias" que é enviado para API como Role System, dispensando o uso de contextos ou frases detalhadas, o que possibilita o usuário de digitar apenas produtos, sabores, ou tipos de alimentos.
 Construído utilizando Flask para ser implantado em um serviço web e ser acessado através do navegador. O aplicativo também possui a função de enviar emails para reportar problemas de requisição.
+
+#googleapi
+
+Programa destinado para geração de tokens dos serviços Google API. Este código foi criado para ser utilizado juntamente ao agendador de tarefas e um banco de dados, para contornar a expiração de 60 minutos do token (protocolo de segurança da Google). 
+Antes de utilizar este código, é necessário ter em mãos o JSON gerado no Google Cloud durante a criação do seu aplicativo e autenticação.
