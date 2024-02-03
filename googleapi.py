@@ -9,7 +9,7 @@ dotenv.load_dotenv()
 credenciais_json = os.getenv("JSON")
 
 
-escopos = ['https://www.googleapis.com/auth/calendar', 'https://www.googleapis.com/auth/gmail.send']
+escopos = ['https://www.googleapis.com/auth/calendar', 'https://www.googleapis.com/auth/gmail.send'] #Adiciones escopos conforme necessário
 
 
 credentials = google.oauth2.service_account.Credentials.from_service_account_file(credenciais_json, scopes=escopos)
