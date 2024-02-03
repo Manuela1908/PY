@@ -17,4 +17,4 @@ Construído utilizando Flask para ser implantado em um serviço web e ser acessa
 #googleapi
 
 Programa destinado para geração de tokens dos serviços Google API. Este código foi criado para ser utilizado juntamente ao agendador de tarefas e um banco de dados, para contornar a expiração de 60 minutos do token (protocolo de segurança da Google). 
-Antes de utilizar este código, é necessário ter em mãos o JSON com as credenciais do seu aplicativo, gerado no Google Cloud durante sua criação e confirgurações de acesso e autenticação.
+Antes de utilizar este código, é necessário ter em mãos o JSON com as credenciais do seu aplicativo, gerado no Google Cloud durante sua criação e configurações de acesso e autenticação.
